@@ -1,0 +1,40 @@
+[{"complaint_type":"Sewer","descriptor":"Sewer Backup (Use Comments) (SA)","n":"2458"}
+,{"complaint_type":"Request Large Bulky Item Collection","descriptor":"Request Large Bulky Item Collection","n":"909"}
+,{"complaint_type":"WATER LEAK","descriptor":"HEAVY FLOW","n":"883"}
+,{"complaint_type":"Sewer","descriptor":"Street Flooding (SJ)","n":"572"}
+,{"complaint_type":"Traffic Signal Condition","descriptor":"Controller","n":"437"}
+,{"complaint_type":"Sewer","descriptor":"Catch Basin Clogged/Flooding (Use Comments) (SC)","n":"312"}
+,{"complaint_type":"Blocked Driveway","descriptor":"No Access","n":"309"}
+,{"complaint_type":"PAINT/PLASTER","descriptor":"CEILING","n":"295"}
+,{"complaint_type":"UNSANITARY CONDITION","descriptor":"PESTS","n":"270"}
+,{"complaint_type":"WATER LEAK","descriptor":"SLOW LEAK","n":"259"}
+,{"complaint_type":"Damaged Tree","descriptor":"Entire Tree Has Fallen Down","n":"256"}
+,{"complaint_type":"Damaged Tree","descriptor":"Branch or Limb Has Fallen Down","n":"244"}
+,{"complaint_type":"UNSANITARY CONDITION","descriptor":"MOLD","n":"218"}
+,{"complaint_type":"Illegal Parking","descriptor":"Blocked Hydrant","n":"208"}
+,{"complaint_type":"Noise - Residential","descriptor":"Banging/Pounding","n":"197"}
+,{"complaint_type":"PAINT/PLASTER","descriptor":"WALL","n":"193"}
+,{"complaint_type":"Illegal Parking","descriptor":"Posted Parking Sign Violation","n":"152"}
+,{"complaint_type":"Water System","descriptor":"Excessive Water In Basement (WEFB)","n":"146"}
+,{"complaint_type":"Noise - Residential","descriptor":"Loud Music/Party","n":"145"}
+,{"complaint_type":"DOOR/WINDOW","descriptor":"WINDOW FRAME","n":"138"}
+,{"complaint_type":"FLOORING/STAIRS","descriptor":"FLOOR","n":"131"}
+,{"complaint_type":"Abandoned Vehicle","descriptor":"With License Plate","n":"129"}
+,{"complaint_type":"Homeless Person Assistance","n":"123"}
+,{"complaint_type":"HEAT/HOT WATER","descriptor":"ENTIRE BUILDING","n":"113"}
+,{"complaint_type":"Derelict Vehicles","descriptor":"Derelict Vehicles","n":"103"}
+,{"complaint_type":"Illegal Parking","descriptor":"Blocked Sidewalk","n":"95"}
+,{"complaint_type":"DOOR/WINDOW","descriptor":"DOOR","n":"89"}
+,{"complaint_type":"Blocked Driveway","descriptor":"Partial Access","n":"87"}
+,{"complaint_type":"Street Light Condition","descriptor":"Street Light Out","n":"81"}
+,{"complaint_type":"Dirty Conditions","descriptor":"E3 Dirty Sidewalk","n":"77"}
+,{"complaint_type":"Damaged Tree","descriptor":"Branch Cracked and Will Fall","n":"74"}
+,{"complaint_type":"Encampment","descriptor":"N/A","n":"73"}
+,{"complaint_type":"WATER LEAK","descriptor":"DAMP SPOT","n":"72"}
+,{"complaint_type":"Water System","descriptor":"Leak (Use Comments) (WA2)","n":"69"}
+,{"complaint_type":"Street Condition","descriptor":"Pothole","n":"67"}
+,{"complaint_type":"PLUMBING","descriptor":"BASIN/SINK","n":"66"}
+,{"complaint_type":"Noise - Vehicle","descriptor":"Car/Truck Horn","n":"63"}
+,{"complaint_type":"PLUMBING","descriptor":"WATER SUPPLY","n":"62"}
+,{"complaint_type":"Illegal Parking","descriptor":"Double Parked Blocking Traffic","n":"60"}
+,{"complaint_type":"Missed Collection (All Materials)","descriptor":"1 Missed Collection","n":"60"}]

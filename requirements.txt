@@ -1,0 +1,6 @@
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+pyarrow>=15      # notebook 16 (parquet)
+openpyxl>=3.1    # notebook 10 (NIST summary workbook)
+jupyter
