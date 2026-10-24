@@ -1,6 +1,6 @@
 # City Brain: public datasets explained
 
-One Jupyter notebook per public dataset collected for the **City Brain** (detection, graph DB, mock sensors, scenarios, evaluation, scoring). Each notebook explains:
+One Jupyter notebook per public dataset the **City Brain** uses (detection, graph DB, mock sensors, scenarios, evaluation, scoring). Each notebook explains:
 
 1. **What's inside**: the source, the licence, the columns and what they mean, the first rows.
 2. **What it shows**: short analyses and plots on the real data.
@@ -27,15 +27,13 @@ The notebooks are already executed, so you can **read them directly on GitHub** 
 | 13 | [SmartGrid cyber-physical attacks](notebooks/13_smartgrid_cyber_physical_attacks.ipynb) | Power / security | Medium | No (IEEE terms) |
 | 14 | [Intel Berkeley Lab sensor faults](notebooks/14_intel_lab_sensor_faults.ipynb) | Sensor faults | High | Sample (8 motes) |
 | 15 | [Numenta Anomaly Benchmark](notebooks/15_nab_anomaly_benchmark.ipynb) | Evaluation | Medium | Sample |
-| 16 | [PeMS Freeway Incident Detection](notebooks/16_pems_freeway_incident_detection.ipynb) | Traffic | Low | No (IEEE terms) |
-| 17 | [Kaggle Smoke Detection IoT](notebooks/17_kaggle_smoke_detection_iot.ipynb) | Fire sensors | Low | No |
 
 **Where to start:** notebooks 01, 05 and 10 have the most important lessons. Notebooks 02, 03, 05, 06, 07 and 08 together describe the same real storm (Hurricane Ida, 1–2 Sep 2021), which is the basis of the "Storm night" demo scenario.
 
 ## What the data taught us
 
 1. **Signals with a daily rhythm need a per-sensor, per-hour, weekday/weekend baseline**, not a plain moving average (01, 04, 15).
-2. **Never open an incident on one sensor**: dying batteries fake 385 °C (14), and freeway incidents leave no trace at one detector (16).
+2. **Never open an incident on one sensor**: dying batteries fake 385 °C (14), and a single traffic detector's speed drop is noise (01).
 3. **Every incident type needs a second signal.** For fire, it's a **CO rise**: 30/30 fires vs 0/60 cooking tests (10). For floods, calls and sensors agree within minutes (05).
 4. **Silence and speed 0 are ambiguous**, not incidents (07, 14).
 5. **A city-wide rise with no call is regional**, e.g. wildfire smoke rather than a fire (09).
@@ -71,5 +69,5 @@ The **code** in this repo can be reused freely. The **data samples** keep their 
 | Intel Berkeley Lab | Open; acknowledge Intel Research Berkeley / MIT CSAIL |
 | NAB | MIT (`data/anomaly-benchmark/nab/LICENSE.txt`); cite Ahmad et al. (2017) |
 | UTD19 (not included) | Academic / non-commercial; cite Loder et al. (2019), *Scientific Reports* 9 |
-| IEEE DataPort sets (not included) | IEEE DataPort terms; DOIs 10.21227/symr-bz19 and 10.21227/hcxe-7k08 |
-| Kaggle smoke set, Fire & Smoke Twin calls (not included) | See their pages; Fire Twin: arXiv:2305.18313 |
+| SmartGrid attack set (not included) | IEEE DataPort terms; DOI 10.21227/symr-bz19 |
+| Fire & Smoke Twin calls (not included) | See the repository; cite arXiv:2305.18313 |

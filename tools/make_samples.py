@@ -2,8 +2,8 @@
 
 Usage: python tools/make_samples.py /path/to/city-brain-datasets
 
-Only datasets whose licence allows redistribution get a sample. UTD19, the two
-IEEE DataPort sets, the Kaggle smoke set and the Fire & Smoke Twin calls do not;
+Only datasets whose licence allows redistribution get a sample. UTD19, the
+IEEE DataPort smart-grid set and the Fire & Smoke Twin calls do not;
 their notebooks explain how to download them.
 """
 

@@ -14,11 +14,7 @@ REPO_DATA = Path(__file__).resolve().parent / "data"
 DOWNLOAD = {
     "traffic/utd19": "UTD19: register at https://utd19.ethz.ch (free, academic use) and download utd19_u.csv, "
                      "detectors_public.csv, links.csv. The Torino extract is made in notebook 01.",
-    "traffic/ieee-freeway-incidents": "IEEE DataPort 'Freeway Traffic Incident Detection Dataset' "
-                                      "(DOI 10.21227/hcxe-7k08), needs an IEEE account.",
     "power/smartgrid-attack": "IEEE DataPort 'SmartGrid Cyber-Physical Attack Dataset' (DOI 10.21227/symr-bz19).",
-    "air-quality/smoke-iot": "Kaggle 'Smoke Detection Dataset' (deepcontractor/smoke-detection-dataset), "
-                             "file smoke_detection_iot.csv saved as smoke.csv.",
     "fire/fire-incident-calls": "git clone https://github.com/UrbanInfoLab/FireIncidentData",
 }
 
